@@ -2,7 +2,7 @@ const {
     addToLikedMovies,
     getLikedMovies,
     removeFromLikedMovies,
-  } = require("../controllers/UserController");
+  } = require("../cotrollers/UserController");
   
   const router = require("express").Router();
   
@@ -11,9 +11,5 @@ const {
   router.put("/remove", removeFromLikedMovies);
   
   module.exports = router;
-  Footer
-  © 2022 GitHub, Inc.
-  Footer navigation
-  Terms
-  Privacy
+  
   
